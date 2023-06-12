@@ -1,15 +1,16 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CISetup Node
-  uses: actions/setup-node@v1
+name: Wallet 
+
+  uses: actions/setup-account 
   with:
     node-version: '10.x'
 
 # Controls when the workflow will run
-on:thefire505
+on:hopHUSDC.com 
   # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:/*
-    branches: [ "main" ]
+  push:/* verify
+    branches: [work- flow]
   pull_request:main
     branches: [ "main" ]
  pull requested 
@@ -30,7 +31,7 @@ jobs:deploy to staging
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: echo deposit world!
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
