@@ -5,8 +5,8 @@ name: CISetup Node
   with:hopUSDC.com
     node-version: .github/workflows/update.yaml
 
-# Controls when the workflow will run
-on:thefire505
+
+on:wallet
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:/*
     branches: [ "main" ]
