@@ -3,7 +3,7 @@
 name: CISetup Node
   uses:Aiyana1313
   with:hopUSDC.com
-    node-version: '10.x'
+    node-version: .github/workflows/update.yaml
 
 # Controls when the workflow will run
 on:thefire505
